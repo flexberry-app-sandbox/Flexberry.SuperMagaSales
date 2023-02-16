@@ -1,0 +1,120 @@
+﻿{
+  "name": "IISSuperMagaSalesInvioce",
+  "modelName": "i-i-s-super-maga-sales-invioce",
+  "className": "Invioce",
+  "nameSpace": "IIS.SuperMagaSales",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "salesDate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "client",
+      "relatedTo": "i-i-s-super-maga-sales-client",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "productItem",
+      "relatedTo": "i-i-s-super-maga-sales-product-item",
+      "inverse": "invioce"
+    }
+  ],
+  "projections": [
+    {
+      "name": "InvioceE",
+      "modelName": "i-i-s-super-maga-sales-invioce",
+      "attrs": [
+        {
+          "name": "salesDate",
+          "caption": "Sales date",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Client",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Client",
+          "name": "client",
+          "relatedTo": "i-i-s-super-maga-sales-client",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ProductItemE",
+          "caption": "Product item",
+          "name": "productItem",
+          "relatedTo": "i-i-s-super-maga-sales-product-item",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "InvioceL",
+      "modelName": "i-i-s-super-maga-sales-invioce",
+      "attrs": [
+        {
+          "name": "salesDate",
+          "caption": "Дата продажи",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Client",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Клиент",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Клиент",
+          "name": "client",
+          "relatedTo": "i-i-s-super-maga-sales-client",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

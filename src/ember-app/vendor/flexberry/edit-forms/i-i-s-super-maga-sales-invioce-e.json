@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Client",
+      "projection": "ClientL",
+      "detailModelName": null
+    },
+    {
+      "master": "product",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ProductItem.Product",
+      "projection": "ProductL",
+      "detailModelName": "i-i-s-super-maga-sales-product-item"
+    }
+  ],
+  "external": false,
+  "caption": "Накладная",
+  "name": "IISSuperMagaSalesInvioceE",
+  "className": "InvioceE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-super-maga-sales-invioce",
+      "modelProjection": "InvioceE"
+    }
+  ]
+}

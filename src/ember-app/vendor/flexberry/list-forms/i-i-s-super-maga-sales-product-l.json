@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-super-maga-sales-product-e",
+  "editForm": "i-i-s-super-maga-sales-product-e",
+  "external": false,
+  "caption": "Товар",
+  "name": "IISSuperMagaSalesProductL",
+  "className": "ProductL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-super-maga-sales-product",
+      "modelProjection": "ProductL"
+    }
+  ]
+}

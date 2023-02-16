@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Товар",
+  "name": "IISSuperMagaSalesProductE",
+  "className": "ProductE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-super-maga-sales-product",
+      "modelProjection": "ProductE"
+    }
+  ]
+}

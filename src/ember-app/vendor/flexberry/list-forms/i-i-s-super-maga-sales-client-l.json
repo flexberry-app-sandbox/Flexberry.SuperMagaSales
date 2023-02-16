@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-super-maga-sales-client-e",
+  "editForm": "i-i-s-super-maga-sales-client-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISSuperMagaSalesClientL",
+  "className": "ClientL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-super-maga-sales-client",
+      "modelProjection": "ClientL"
+    }
+  ]
+}

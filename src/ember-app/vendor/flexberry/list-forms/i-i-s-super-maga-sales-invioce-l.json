@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-super-maga-sales-invioce-e",
+  "editForm": "i-i-s-super-maga-sales-invioce-e",
+  "external": false,
+  "caption": "Накладная",
+  "name": "IISSuperMagaSalesInvioceL",
+  "className": "InvioceL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-super-maga-sales-invioce",
+      "modelProjection": "InvioceL"
+    }
+  ]
+}

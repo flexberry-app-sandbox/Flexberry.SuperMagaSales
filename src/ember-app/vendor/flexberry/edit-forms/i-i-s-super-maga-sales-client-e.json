@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISSuperMagaSalesClientE",
+  "className": "ClientE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-super-maga-sales-client",
+      "modelProjection": "ClientE"
+    }
+  ]
+}

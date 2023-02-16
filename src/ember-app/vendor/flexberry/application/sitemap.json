@@ -1,0 +1,44 @@
+﻿{
+  "applicationCaption": "Продажи",
+  "applicationTitle": "Продажи",
+  "items": [
+    {
+      "link": null,
+      "menuName": "подсистема-продаж",
+      "caption": "Подсистема продаж",
+      "title": "Подсистема продаж",
+      "children": [
+        {
+          "link": "i-i-s-super-maga-sales-invioce-l",
+          "menuName": null,
+          "caption": "Накладная",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": null,
+          "menuName": "справочники",
+          "caption": "Справочники",
+          "title": "Справочники",
+          "children": [
+            {
+              "link": "i-i-s-super-maga-sales-product-l",
+              "menuName": null,
+              "caption": "Товар",
+              "title": "Product",
+              "children": null
+            },
+            {
+              "link": "i-i-s-super-maga-sales-client-l",
+              "menuName": null,
+              "caption": "Клиент",
+              "title": "Client",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
